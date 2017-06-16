@@ -15,6 +15,7 @@
 		<module>lin-spring-cloud-eureka-server</module>
 		<module>lin-spring-cloud-admin-server</module>
 		<module>lin-spring-cloud-api-gateway</module>
+		<module>lin-spring-cloud-angular-web</module>
 		
 	</modules>
 

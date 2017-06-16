@@ -4,23 +4,20 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.lin.springcloud</groupId>
+		 <groupId>com.lin.springcloud</groupId>
      <artifactId>lin-spring-cloud-parent</artifactId>
      <version>1.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>lin-spring-cloud-config-server</artifactId>
+	<artifactId>lin-spring-cloud-angular-web</artifactId>
 
 	<dependencies>
-	    <!-- eureka client -->
+		<!-- eureka client -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-		<!-- Config Server -->
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
-		</dependency>
+		
+		
 	</dependencies>
 
 </project>
