@@ -1,28 +1,47 @@
-# Static
+# bootstrap4-angular2-loginregistertemplate
+A basic login,register template built in angular2 and bootstrap4.
+bootstrap4-angular2-loginregistertemplate is a free to use Bootstrap4 angular2 template. 
+This template uses the default Bootstrap4 styles along with a variety of powerful angular plugins and tools.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
+# How to install
+via: npm
 
-## Development server
+    npm install
+ 
+    ng serve
+    
+ Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+ 
+ Or youcan use
+ 
+    npm run ng serve
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You can configure the default HTTP host and port used by the development server with two command-line options :
 
-## Code scaffolding
+    ng serve --host 0.0.0.0 --port 4201
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+# Generating Components
 
-## Build
+    ng generate component my-new-component
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Read more :https://github.com/angular/angular-cli
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Scripts included
 
-## Running end-to-end tests
+ Bootstrap 4
+ 
+ Font Awesome 4.7.0
+ 
+ Simple line icons
+ 
+ # Issues
+ 
+ https://github.com/kishoremallick/bootstrap4-angular2-loginregistration/issues
+ 
+ 
+ # License
+ 
+ MIT
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
