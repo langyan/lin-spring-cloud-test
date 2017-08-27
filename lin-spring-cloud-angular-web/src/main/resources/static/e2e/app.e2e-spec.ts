@@ -1,14 +1,14 @@
-import { StaticPage } from './app.po';
+import { SbAdminCliUpdatePage } from './app.po';
 
-describe('static App', () => {
-  let page: StaticPage;
+describe('sb-admin-cli-update App', () => {
+  let page: SbAdminCliUpdatePage;
 
   beforeEach(() => {
-    page = new StaticPage();
+    page = new SbAdminCliUpdatePage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });
