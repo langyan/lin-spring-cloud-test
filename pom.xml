@@ -16,7 +16,8 @@
 
 	<modules>
 		<module>lin-spring-cloud-eureka-server</module>
-		
+		<module>lin-spring-cloud-sleuth-server</module>
+		<module>lin-spring-cloud-gateway</module>
 		
 	</modules>
 
