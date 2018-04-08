@@ -15,6 +15,7 @@
 	  <url>http://maven.apache.org</url>
 
 	<modules>
+	  <module>lin-spring-cloud-config-server</module>
 		<module>lin-spring-cloud-eureka-server</module>
 		<module>lin-spring-cloud-sleuth-server</module>
 		<module>lin-spring-cloud-gateway</module>
